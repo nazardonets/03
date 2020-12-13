@@ -1,0 +1,229 @@
+/* VARIABLES */
+
+:root {
+	--brandblue: #2196f3;
+	--brandblue__active: #41aaff;
+	--darktext: #212121;
+	--lighttext: #757575;
+	--bgdark: #2f303a;
+	--bglight: #f5f4fa;
+	--white: #fff;
+	--black: #000;
+}
+
+.color-blue {
+	color: var(--brandblue);
+}
+
+.color-black {
+	color: var(--black);
+}
+
+.color-white {
+	color: var(--white);
+}
+
+/* COMMON STYLES */
+
+body {
+	font-family: "Roboto", sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	letter-spacing: 0.03em;
+	color: var(--darktext);
+}
+
+address {
+	font-style: normal;
+	font-weight: 400;
+	line-height: 24px;
+	color: var(--white);
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+.logo {
+	font-family: Raleway;
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 31px;
+}
+
+/* .nav {
+} */
+
+/* .nav-list {
+} */
+
+.nav-item,
+.contacts-item {
+	font-weight: 500;
+	line-height: 16px;
+	letter-spacing: 0.02em;
+}
+
+.nav-link {
+	color: var(--darktext);
+}
+
+.nav-link__current {
+	color: var(--brandblue);
+}
+
+/* .header-contacts__list {
+} */
+
+/* .contacts-item {
+} */
+
+.contacts-link {
+	color: var(--lighttext);
+}
+
+.nav-link:hover,
+.nav-link:focus,
+.contacts-link:hover,
+.contacts-link:focus {
+	color: var(--brandblue);
+}
+
+.hero,
+.footer {
+	background-color: var(--bgdark);
+}
+
+.hero-section__heading {
+	width: 696px;
+	font-weight: 900;
+	font-size: 44px;
+	line-height: 60px;
+	text-align: center;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+	color: var(--white);
+}
+
+.hero-btn {
+	padding: 10px 32px;
+	background: var(--brandblue);
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+	border-radius: 4px;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 30px;
+	letter-spacing: 0.06em;
+	color: var(--white);
+}
+
+/* .pros-list {
+} */
+
+/* .pros-item {
+} */
+
+.pros-item__heading {
+	font-weight: bold;
+	line-height: 16px;
+	text-transform: uppercase;
+	color: var(--darktext);
+}
+
+.pros-item__description {
+	line-height: 24px;
+	color: var(--lighttext);
+}
+
+.pros-section__heading,
+.occupation-section__heading,
+.team-section__heading,
+.portfolio-section__heading {
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 42px;
+	text-align: center;
+	color: var(--darktext);
+}
+
+/* .occupation-list {
+} */
+
+/* .occupation-item {
+} */
+
+.bgcolor-light {
+	background-color: var(--bglight);
+}
+
+/* .team-list {
+} */
+
+/* .team-item {
+} */
+
+.team-item__heading {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 19px;
+	text-align: center;
+	color: var(--darktext);
+}
+
+.team-item__description {
+	font-size: 16px;
+	line-height: 19px;
+	text-align: center;
+	color: var(--lighttext);
+}
+
+/* .footer-contacts__list {
+} */
+
+/* .fiters-list {
+} */
+
+/* .filter-item {
+} */
+
+.filter-btn {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 26px;
+	padding: 6px 22px;
+	color: var(--darktext);
+	background-color: var(--bglight);
+	border-style: none;
+	border-radius: 4px;
+}
+
+.filter-btn:hover,
+.filter-btn:focus {
+	background-color: var(--brandblue);
+	color: var(--white);
+}
+
+/* .portfolio-list {
+} */
+
+/* .portfolio-item {
+} */
+
+.portfolio-item__heading {
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 36px;
+	letter-spacing: 0.06em;
+	color: var(--darktext);
+}
+
+.portfolio-item__description {
+	font-size: 16px;
+	line-height: 30px;
+	color: var(--lighttext);
+}
