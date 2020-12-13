@@ -112,6 +112,7 @@ a {
 }
 
 .hero-btn {
+	display: inline-block;
 	padding: 10px 32px;
 	background: var(--brandblue);
 	box-shadow: var(--btn-shadow);
