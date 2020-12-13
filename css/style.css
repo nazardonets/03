@@ -9,6 +9,7 @@
 	--bglight: #f5f4fa;
 	--white: #fff;
 	--black: #000;
+	--btn-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .color-blue {
@@ -113,9 +114,9 @@ a {
 .hero-btn {
 	padding: 10px 32px;
 	background: var(--brandblue);
-	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+	box-shadow: var(--btn-shadow);
 	border-radius: 4px;
-	font-weight: bold;
+	font-weight: 700;
 	font-size: 16px;
 	line-height: 30px;
 	letter-spacing: 0.06em;
@@ -167,18 +168,18 @@ a {
 /* .team-item {
 } */
 
-.team-item__heading {
-	font-weight: 500;
-	font-size: 16px;
-	line-height: 19px;
-	text-align: center;
-	color: var(--darktext);
-}
-
+.team-item__heading,
 .team-item__description {
 	font-size: 16px;
 	line-height: 19px;
 	text-align: center;
+}
+
+.team-item__heading {
+	font-weight: 500;
+}
+
+.team-item__description {
 	color: var(--lighttext);
 }
 
@@ -206,6 +207,7 @@ a {
 .filter-btn:focus {
 	background-color: var(--brandblue);
 	color: var(--white);
+	box-shadow: var(--btn-shadow);
 }
 
 /* .portfolio-list {
