@@ -272,7 +272,7 @@ a {
 }
 
 .footer address,
-.footer-contacts__list .contacts-item.contacts-item:not(:last-child) {
+.footer-contacts__list .contacts-item:not(:last-child) {
 	margin-bottom: 9px;
 }
 
