@@ -12,10 +12,6 @@
 	--btn-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
-.color-blue {
-	color: var(--brandblue);
-}
-
 .color-black {
 	color: var(--black);
 }
@@ -64,6 +60,7 @@ a {
 	font-size: 26px;
 	line-height: 31px;
 	margin-right: 93px;
+	color: var(--brandblue);
 }
 
 .header,
